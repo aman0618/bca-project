@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="aboutus.master.cs" Inherits="about" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+     <meta charset="utf-8">
+ <title>AssuredSafety</title>
+ <meta content="width=device-width, initial-scale=1.0" name="viewport">
+ <meta content="Free Website Template" name="keywords">
+ <meta content="Free Website Template" name="description">
+
+ <!-- Favicon -->
+ <link href="img/favicon.ico" rel="icon">
+
+ <!-- Font Awesome -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+ <!-- Flaticon Font -->
+ <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+ <!-- Libraries Stylesheet -->
+ <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+ <!-- Customized Bootstrap Stylesheet -->
+ <link href="css/style.css" rel="stylesheet">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <style type="text/css">
+         .auto-style1 {
+             background-color: #000000;
+         }
+     </style>
+</head>
+
+
+    <form id="form1" runat="server">
+        <body class="bg-white">
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row bg-secondary py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left">
+                <div class="d-inline-flex align-items-center">
+                    <p class="mr-2 mb-2 mb-lg-0 text-white"> complain registering time :</p>
+                    <span class="mb-2 mb-lg-0 text-white">24/7</span>
+                </div>
+            </div>
+            
+            </div>
+        </div> 
+        <div class="row py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="" class="navbar-brand d-none d-lg-block">
+                    <h1 class="m-0 display-5 text-capitalize font-italic"><span class="text-primary">Assured</span>Safety</h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="d-inline-flex flex-column text-center pr-3 border-right">
+                        <h6>Our Office</h6>
+                        <p class="m-0">AMRITSAR,PUNJAB,INDIA</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center px-3 border-right">
+                        <h6>Email Us</h6>
+                        <p class="m-0">adk0600901@gmail.com</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center pl-3">
+                        <h6>Call Us</h6>
+                        <p class="m-0">+91 7717322642</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+<div>
+
+</div>
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-0">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">S<span class="auto-style1">afety</span></span><span class="auto-style1">First</span></h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-4">
+                    <a href="mainhome.aspx" class="nav-item nav-link active" style="background-color: #000000">HOME</a>
+<a href="aboutushome.aspx" class="nav-item nav-link" style="background-color: #000000">ABOUT</a>
+<a href="servicehome.aspx" class="nav-item nav-link" style="background-color: #000000">SERVICES</a>
+<a href="user/register.aspx" class="nav-item nav-link" style="background-color: #000000">REGISTER</a>
+<div class="nav-item dropdown">
+    <a href="../#" class="nav-link dropdown-toggle" data-toggle="dropdown" style="background-color: #000000">USERS</a>
+    <div class="dropdown-menu text-capitalize">
+        <a href="user/userlogin.aspx" class="dropdown-item">user</a>
+        <a href="admin/adlog.aspx" class="dropdown-item">admin</a>
+    
+        <a href="policestation/policelogin.aspx" class="dropdown-item">police station</a>
+                    
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+   
+    <!-- Carousel Start -->
+       
+    <!-- Carousel End -->
+              
+
+            
+   <br />
+   <br />
+   <br />
+  
+  
+   <br class="table-light" /><span class="table-light">v
+            
+
+    <!-- About Start -->
+            </span>
+    <div class="container-fluid mb-5" style="background: #f6f6f6;">
+        <div class="row align-items-center">
+            <div class="col-lg-6 px-0">
+                <img width="100%" class="img-fluid" src="images/police%20cap.jpg" /> 
+            </div>
+            <div class="col-lg-6 py-5 py-lg-0 px-3 px-lg-5">
+                <h5 class="text-primary mb-3">About Us</h5>
+                <h1 class="mb-4">we assure you justice</h1>
+                <p>It is rightly said , The one who suffers oppression is more guilty than the one who commits oppression.</p>
+                <div class="row py-2">
+                    <div class="col-sm-6">
+                        <i class="flaticon-approved display-3 text-primary"></i>
+                        <h5 class="mt-2">Highly Trusted</h5>
+                        <p></p>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="flaticon-medal display-3 text-primary"></i>
+                        <h5 class="mt-2">Award Winning</h5>
+                        <p></p>
+                    </div>
+                </div><!--
+                <a href="" class="btn btn-lg px-4 btn-primary">Learn More</a>
+                -->
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
